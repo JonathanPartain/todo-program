@@ -97,8 +97,6 @@ def replace(already_in):
     os.rename("temp_todo.txt", "todo.txt")
 
     new_file.close()
-    sleep(2)
-
     main()
 
 def show_lists():
